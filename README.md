@@ -65,6 +65,10 @@ Structured tables include:
 - Rating and review system
 - Performance optimization
 
+#Developer
+
+Prince Carlo Monacillo
+Bachelor of Science in Information Technology
 #Installation
 
 ```bash
@@ -74,9 +78,6 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
-php artisan serve
+php artisan serve 
 
-#Developer
 
-Prince Carlo Monacillo
-Bachelor of Science in Information Technology
