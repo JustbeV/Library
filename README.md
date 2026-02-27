@@ -1,86 +1,74 @@
 #Anime & Manga Library System
 
-A web-based Anime and Manga Library developed using Laravel.
-The system allows users to browse available titles, while administrators manage and maintain the content through a secured dashboard.
+**Status:** Development / Proof-of-Concept
 
-Overview
+Anime & Manga Library is a web-based system developed using Laravel.
+Users can browse available anime and manga titles, while administrators manage and maintain content through a secured dashboard.
 
-This project was built to provide a structured platform for organizing anime and manga collections. It implements role-based access control to separate user permissions from administrative functions.
+#Overview
 
-Regular users can view and explore content, while only administrators are allowed to create, update, or remove entries.
+This project provides a structured platform for organizing anime and manga collections.
+Role-based access control separates user permissions:
 
-Features
-User
+- **Users**: View and explore content
+- **Administrators**: Create, update, and delete entries
 
-Browse anime and manga entries
+> Regular users cannot modify content; only administrators have full control over the library.
 
-View detailed information for each title
+#Features
 
-Responsive and organized interface
+##User
 
-Administrator
+- Browse anime and manga entries
+- View detailed information for each title
+- Responsive and organized interface
 
-Secure login authentication
+##Administrator
 
-Add new anime and manga entries
+- Secure login authentication
+- Add new anime and manga entries
+- Edit existing entries
+- Delete entries
+- Upload and manage cover images
+- Access content management dashboard
 
-Edit existing entries
+#Technology Stack
 
-Delete entries
+- Laravel
+- PHP
+- MySQL
+- Blade Templates
+- HTML & CSS
 
-Upload and manage cover images
+#Database
 
-Access content management dashboard
+Structured tables include:
 
-Technology Stack
+- Users
+- Anime
+- Manga
 
-Laravel
+> CRUD operations are restricted to administrator accounts using role-based authorization.
 
-PHP
+#Security
 
-MySQL
+- Authentication system
+- Role-based access control
+- CSRF protection
+- Server-side validation
 
-Blade Templates
+#Planned Improvements
 
-HTML & CSS
+- Support for large video uploads
+- Advanced search and filtering
+- Pagination
+- Rating and review system
+- Performance optimization
 
-Database
+#Installation
 
-The system includes structured tables for:
-
-Users
-
-Anime
-
-Manga
-
-CRUD operations are restricted to administrator accounts through role-based authorization.
-
-Security
-
-Authentication system
-
-Role-based access control
-
-CSRF protection
-
-Server-side validation
-
-Planned Improvements
-
-Support for large video uploads
-
-Search and filtering functionality
-
-Pagination
-
-Rating and review system
-
-Performance optimization
-
-Installation
-
-git clone https://github.com/your-username/your-repository.git
+```bash
+git clone https://github.com/JustbeV/Library
 cd your-repository
 composer install
 cp .env.example .env
@@ -88,8 +76,7 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 
-
-Developer
+#Developer
 
 Prince Carlo Monacillo
 Bachelor of Science in Information Technology
