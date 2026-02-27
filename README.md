@@ -1,4 +1,4 @@
-Anime & Manga Library System
+#Anime & Manga Library System
 
 A web-based Anime and Manga Library developed using Laravel.
 The system allows users to browse available titles, while administrators manage and maintain the content through a secured dashboard.
