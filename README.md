@@ -1,11 +1,11 @@
-#Anime & Manga Library System
+Anime & Manga Library System
 
 **Status:** Development / Proof-of-Concept
 
 Anime & Manga Library is a web-based system developed using Laravel.
 Users can browse available anime and manga titles, while administrators manage and maintain content through a secured dashboard.
 
-#Overview
+Overview
 
 This project provides a structured platform for organizing anime and manga collections.
 Role-based access control separates user permissions:
@@ -15,15 +15,15 @@ Role-based access control separates user permissions:
 
 > Regular users cannot modify content; only administrators have full control over the library.
 
-#Features
+Features
 
-##User
+User
 
 - Browse anime and manga entries
 - View detailed information for each title
 - Responsive and organized interface
 
-##Administrator
+Administrator
 
 - Secure login authentication
 - Add new anime and manga entries
@@ -32,7 +32,7 @@ Role-based access control separates user permissions:
 - Upload and manage cover images
 - Access content management dashboard
 
-#Technology Stack
+Technology Stack
 
 - Laravel
 - PHP
@@ -40,7 +40,7 @@ Role-based access control separates user permissions:
 - Blade Templates
 - HTML & CSS
 
-#Database
+Database
 
 Structured tables include:
 
@@ -50,14 +50,14 @@ Structured tables include:
 
 > CRUD operations are restricted to administrator accounts using role-based authorization.
 
-#Security
+Security
 
 - Authentication system
 - Role-based access control
 - CSRF protection
 - Server-side validation
 
-#Planned Improvements
+Planned Improvements
 
 - Support for large video uploads
 - Advanced search and filtering
@@ -65,11 +65,13 @@ Structured tables include:
 - Rating and review system
 - Performance optimization
 
-#Developer
+Developer
 
 Prince Carlo Monacillo
 Bachelor of Science in Information Technology
-#Installation
+
+
+Installation
 
 ```bash
 git clone https://github.com/JustbeV/Library
